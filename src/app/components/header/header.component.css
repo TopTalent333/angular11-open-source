@@ -1,0 +1,81 @@
+.custom-bg {
+    background: var(--spt-black);
+}
+
+.user-area .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.user-area .cabecalho img {
+    max-width: 48px;
+    border-radius: 50%;
+}
+
+.user-area .cabecalho .textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-area .user-menu {
+    position: absolute;
+    top: 57px;
+    opacity: 0;
+    pointer-events: none;
+    background: var(--spt-grey);
+    padding: 1rem;
+    max-width: 240px;
+    width: 100%;
+    transition: .2s all;
+    inset-inline-end: 0;
+    z-index: 100;
+}
+
+.user-area .user-menu.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.user-area .user-menu li {
+    list-style: none;
+    transition: .2s all;
+}
+
+.user-area .user-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-area .user-menu li:hover {
+    opacity: .7;
+}
+
+.user-area .user-menu li svg {
+    margin-right: 5px;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .menu-button {
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 64px;
+        background: var(--spt-light-grey);
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        padding: .5rem;
+    }
+    .menu.open {
+        display: flex;
+    }
+}

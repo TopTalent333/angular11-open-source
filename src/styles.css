@@ -1,0 +1,127 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+:root {
+    --spt-black: #191414;
+    --spt-grey: #1d1a1a;
+    --spt-light-grey: #312d2d;
+    --spt-green: #1DB954;
+}
+
+body {
+    background: var(--spt-grey);
+}
+
+.app {
+    padding-bottom: 170px;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+    transition: .2s all;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+.img-circle {
+    height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.button-custom {
+    border: 0;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin: 0 0.3125em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--spt-green);
+
+    transition: .2s all;
+    font-size: 130%;
+}
+
+.button-custom[disabled] {
+    background: var(--grey);
+}
+
+.button-custom:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 75%;
+    }
+
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
+/* support of RTL and LTR */
+.rtl-custom{
+    direction: rtl;
+    text-align: right;
+}
+.ltr-custom{
+    direction: ltr;
+    text-align: left;
+}
+/* please consider using Bootsrap 5 (https://getbootstrap.com/docs/5.0/utilities/spacing/) */
+.ms-auto{
+    margin-inline-start: auto!important;
+}
+.ms-0{
+    margin-inline-start: 0!important;
+}
+.ms-1{
+    margin-inline-start: .25rem!important;
+}
+.ms-2{
+    margin-inline-start: .5rem!important;
+}
+.ms-3{
+    margin-inline-start: 1rem!important;
+}
+.ms-4{
+    margin-inline-start: 1.5rem!important;
+}
+.ms-5{
+    margin-inline-start: 3rem!important;
+}
+
+.me-auto{
+    margin-inline-end: auto!important;
+}
+.me-0{
+    margin-inline-end: 0!important;
+}
+.me-1{
+    margin-inline-end: .25rem!important;
+}
+.me-2{
+    margin-inline-end: .5rem!important;
+}
+.me-3{
+    margin-inline-end: 1rem!important;
+}
+.me-4{
+    margin-inline-end: 1.5rem!important;
+}
+.me-5{
+    margin-inline-end: 3rem!important;
+}

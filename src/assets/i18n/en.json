@@ -1,0 +1,53 @@
+{
+    "direction": "ltr",
+    
+    "LoginDescriptionText": "Litefy. A spotify client for low-end devices",
+    "LoginText": "We believe that you don't need a super device to enjoy your music. We believe you don't need to keep up with all new tech to get entertained. That's why Litefy exists.",
+    "LoginButtonText": "Login with Spotify",
+
+    "SearchPlaceholderText": "Tracks, album, artist, playlist ...",
+
+    "MenuSearchText": "Search",
+    "MenuLibraryText": "Library",
+    "MenuKaraokeText": "Karaoke Mode",
+
+    "HomeArtistsText": "Your favorite artists",
+    "HomeMusicsText": "Your favorite songs",
+    "HomeAlbumsText": "New Albums",
+    "HomePlaylistsText": "Recommended playlists",
+
+    "ArtistTracksText": "Most played tracks",
+    "ArtistAlbumsText": "Albums",
+    "ArtistRelatedText": "Related Artists",
+
+    "Hello": "Howdy",
+    "LibraryTracksText": "Tracks",
+    "LibraryAlbumsText": "Albums",
+    "LibraryPlaylistsText": "Playlists",
+
+    "MusicListTracks": "Track",
+    "MusicListTracksPlural": "Tracks",
+    "MusicListFollowers": "Follower",
+    "MusicListFollowersPlural": "Followers",
+    "DescriptionText": "Description",
+
+    "PlayingText": "Playing",
+    "PausedText": "Paused",
+    "NextText": "Next track",
+    "PreviousText": "Previous track",
+    "ShuffleOnText": "Shuffle mode ON",
+    "ShuffleOffText": "Shuffle mode OFF",
+
+    "ExitText": "Exit",
+    "FollowersText": "Followers",
+    "ProfileText": "Profile",
+    "SettingsText": "Settings",
+
+    "SearchArtists": "Artists",
+
+    "KaraokeNotFoundText": "No lyrics found, but you can try to search manually using the button below.",
+    "KaraokeSearchText": "Search",
+
+    "SettingsPageTitle": "Settings",
+    "SettingsImageText": "Load images (album, artists, playlists, etc.)"
+}
